@@ -57,7 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
   void _List1() {
     setState(() {
-      totals[0]= _dice1;
+      totals[0]= _total;
+      ;
     });
   }
 

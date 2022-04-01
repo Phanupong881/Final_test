@@ -57,9 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
   void _List1() {
     setState(() {
-      for(var _total1 = _total; _total < totals.length; _total1++){
-        totals[0] = _total1;
-      }
+      totals[0]= _dice1;
     });
   }
 
